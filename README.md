@@ -1,43 +1,51 @@
 # EcoScan ♻️
-### AI-Powered Waste Classification Web App
 
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite)
-![Gemini](https://img.shields.io/badge/Gemini_3_Flash-4285F4?style=flat&logo=google)
+**AI-Powered Waste Classification Web App**
 
-A mobile-first AI web app that classifies household waste into **recycle, compost, or landfill** using Google Gemini 3 Flash vision. Built for a hackathon with focus on real-world usability at the point of disposal.
+`React` `TypeScript` `Vite` `Gemini`
 
----
+A mobile-first AI web app that classifies household waste into recycle, compost, or landfill using Google Gemini 3 Flash vision. Built for a hackathon with a focus on real-world usability at the point of disposal.
+
+## Why This Project
+
+Most people don't know whether an item is recyclable, compostable, or trash — leading to contaminated recycling streams and avoidable landfill waste. EcoScan removes the guesswork: snap a photo, get an instant, explained classification, right at the moment of disposal.
+
+## Screenshots
+
+| Capture | Recyclable | Compostable | Landfill |
+|---|---|---|---|
+| ![Capture screen](pics/screenshot1.png) | ![Recyclable result](pics/screenshot3.png) | ![Compostable result](pics/screenshot2.png) | ![Landfill result](pics/screenshot4.png) |
+
+![Recent impact & eco-hack feature](pics/screenshot5.png)
+
+*(Rename the screenshot files in your `pics` folder to match, or update the paths above to your actual filenames.)*
 
 ## ✨ Features
 
 - 📸 Upload any waste item image — get instant AI classification
 - 🧠 Gemini 3 Flash prompt engineered to detect contamination (e.g. grease on cardboard)
 - 📊 Honest confidence score — says "unclear" instead of guessing on bad images
-- 🎨 Color coded results:
+- 🎨 Color-coded results:
   - 🟢 Green = Compostable
   - 🔵 Blue = Recyclable
   - ⚫ Black = Landfill
-- 📝 Material level explanation of classification reasoning
+- 📝 Material-level explanation of classification reasoning
 - 📈 Recent impact history
 - 💡 Daily Eco-Hacks feature
 - ⚡ Progressive UI for near-instant processing
 
----
-
 ## 🛠️ Tech Stack
 
 | Technology | Usage |
-|------------|-------|
+|---|---|
 | React + TypeScript | Frontend framework |
 | Vite | Build tool |
 | Gemini 3 Flash | AI vision & classification |
 | Google AI SDK | Gemini API integration |
 
----
-
 ## 🚀 How to Run
+
+**Prerequisite:** Node.js 18+
 
 ```bash
 # Install dependencies
@@ -50,17 +58,13 @@ GEMINI_API_KEY=your_api_key_here
 npm run dev
 ```
 
----
-
 ## 🧠 Prompt Engineering Highlights
 
-- Detects **contamination** not just object type (e.g. greasy cardboard → compost, not recycle)
+- Detects contamination, not just object type (e.g. greasy cardboard → compost, not recycle)
 - Returns honest confidence scores — flags unclear images instead of guessing
 - Material-level reasoning explanation for each classification
-
----
 
 ## 👤 Author
 
 Built by **Areeba Ghaffar**
-- GitHub: [@AreebaGhaffar](https://github.com/AreebaGhaffar)
+GitHub: [@AreebaGhaffar](https://github.com/AreebaGhaffar)
