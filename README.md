@@ -14,9 +14,9 @@ Most people don't know whether an item is recyclable, compostable, or trash — 
 
 | Capture | Recyclable | Compostable | Landfill |
 |---|---|---|---|
-| ![Capture screen](pics/capture-screen.png) | ![Recyclable result](pics/result-recycleable.png) | ![Compostable result](pics/result-compostable.png) | ![Landfill result](pics/result-landfill.png) |
+| ![Capture screen](pics/capture-screen.png) | ![Recyclable result](pics/result-recyclable.png) | ![Compostable result](pics/result-compostable.png) | ![Landfill result](pics/result-landfill.png) |
 
-![Recent impact & eco-hack feature](pics/impact-histpry.png)
+![Recent impact & eco-hack feature](pics/impact-history.png)
 
 
 ## ✨ Features
