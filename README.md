@@ -14,11 +14,10 @@ Most people don't know whether an item is recyclable, compostable, or trash — 
 
 | Capture | Recyclable | Compostable | Landfill |
 |---|---|---|---|
-| ![Capture screen](pics/screenshot1.png) | ![Recyclable result](pics/screenshot3.png) | ![Compostable result](pics/screenshot2.png) | ![Landfill result](pics/screenshot4.png) |
+| ![Capture screen](pics/capture-screen.png) | ![Recyclable result](pics/result-recycleable.png) | ![Compostable result](pics/result-compostable.png) | ![Landfill result](pics/result-landfill.png) |
 
-![Recent impact & eco-hack feature](pics/screenshot5.png)
+![Recent impact & eco-hack feature](pics/impact-histpry.png)
 
-*(Rename the screenshot files in your `pics` folder to match, or update the paths above to your actual filenames.)*
 
 ## ✨ Features
 
